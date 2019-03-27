@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
-# minimal update for 2.1 by ijgnd of the add-on
+# minimal fork by ijgnd of the add-on
 #   Remove "study ahead" penalty (and sort by earliness) ×
 #   https://ankiweb.net/shared/info/1607819937
+# I just added one line for print-debugging to feel the difference to the built-in function. also renamed for 2.1.
 # All credit for the add-on goes to the original author of the version for 2.0:
-# Anki user rjgoif
-# License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
-
+#   Anki user rjgoif
+#   License: GNU AGPL, version 3 or later; http://www.gnu.org/licenses/agpl.html
 
 # ############### The purpose of this addon is to fix the way Anki handles late/early cards in filtered decks
 # The default Anki algorithm penalizes studying a card early for whatever reason
