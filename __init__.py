@@ -81,7 +81,6 @@ def my_dynOrder(self, o, l):
     elif o == DYN_DUE:
         t = "c.due"
     elif o == DYN_DUEPRIORITY:
-        print('due priori')
         t = "(case when queue=2 and due <= %d then (ivl / cast(%d-due+0.001 as real)) else (100000 + ivl / cast(%d-due+0.001 as real)) end)" % (
                 self.today, self.today, self.today)
     else:
